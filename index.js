@@ -67,3 +67,21 @@ function subThreeG() {
     totalGuestScore.textContent = guest; 
 }
 
+
+let leader = document.getElementById('leader');
+leader.textContent = 'Winning Team: ';
+
+
+// if (home > guest) {
+// leader.textContent = `Winning Team: Home`;
+// } else {
+// leader.textContent = `Winning Team: Guest`;
+// }
+
+// if (home == guest) {
+// leader.textContent = `Winning Team: Home`;
+// } else {
+// leader.textContent = `Winning Team: Draw`;
+// }
+
+
