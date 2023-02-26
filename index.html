@@ -1,45 +1,63 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="each">
-                <h3>HOME</h3>
-                <div id="score1" class="score"></div>
-               <div class="all">
-               <div class="plus">
-                     <button onclick="addOne()" class="plus-box">+1</button>
-                     <button onclick="addTwo()" class="plus-box">+2</button>
-                     <button onclick="addThree()" class="plus-box">+3</button>
-               </div>
-               <div class="sub">
-                     <button onclick="subOne()" class="plus-box">-1</button>
-                     <button onclick="subTwo()" class="plus-box">-2</button>
-                     <button onclick="subThree()" class="plus-box">-3</button>
-               </div>
-               </div>
-    
-                
-            </div>
-            <div class="each">
-                <h3>GUEST</h3>
-                <div id="score2" class="score"></div>
-                <div class="all">
-                 <div class="plus">
-                     <button onclick="addOneG()" class="plus-box">+1</button>
-                     <button onclick="addTwoG()" class="plus-box">+2</button>
-                     <button onclick="addThreeG()" class="plus-box">+3</button>
-               </div>
-                 <div class="sub">
-                     <button onclick="subOneG()" class="plus-box">-1</button>
-                     <button onclick="subTwoG()" class="plus-box">-2</button>
-                     <button onclick="subThreeG()" class="plus-box">-3</button>
-               </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket ball scoreboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>BASKETBALL&nbsp;🏀 SCOREBOARD</h1>
+        <div class="card">
+            <div class="card2">
+                <div class="container">
+                    <div class="content">
+                        <div class="each">
+                            <div class="h3">HOME</div>
+                            <div id="score1" class="score"></div>
+                            <div class="plus-boxes">
+                                <div class="plus">
+                                    <button onclick="addOne()" class="plus-box">+1</button>
+                                    <button onclick="addTwo()" class="plus-box">+2</button>
+                                    <button onclick="addThree()" class="plus-box">+3</button>
+                                </div>
+                                <div class="sub">
+                                    <button onclick="subOne()" class="plus-box">-1</button>
+                                    <button onclick="subTwo()" class="plus-box">-2</button>
+                                    <button onclick="subThree()" class="plus-box">-3</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="each">
+                            <div class="h3">GUEST</div>
+                            <div id="score2" class="score"></div>
+                            <div class="plus-boxes">
+                                <div class="plus">
+                                    <button onclick="addOneG()" class="plus-box">+1</button>
+                                    <button onclick="addTwoG()" class="plus-box">+2</button>
+                                    <button onclick="addThreeG()" class="plus-box">+3</button>
+                                </div>
+                                <div class="sub">
+                                    <button onclick="subOneG()" class="plus-box">-1</button>
+                                    <button onclick="subTwoG()" class="plus-box">-2</button>
+                                    <button onclick="subThreeG()" class="plus-box">-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reset-btn"><button id="reset" class="btn" onclick="reset()" type="reset">Reset</button></div>
                 </div>
             </div>
         </div>
-        <!-- <div id="leader"></div> -->
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>

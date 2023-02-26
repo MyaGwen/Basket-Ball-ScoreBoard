@@ -67,6 +67,13 @@ function subThreeG() {
     totalGuestScore.textContent = guest; 
 }
 
+function reset() {
+    home = 0;
+    guest = 0;
+    totalHomeScore.textContent = home;
+    totalGuestScore.textContent = guest;
+}
+
 
 let leader = document.getElementById('leader');
 leader.textContent = 'Winning Team: ';
