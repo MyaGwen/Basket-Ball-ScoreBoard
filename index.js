@@ -75,18 +75,18 @@ function reset() {
 }
 
 
-let leader = document.getElementById('leader');
-leader.textContent = 'Winning Team: ';
+// let leader = document.getElementById('leader');
+// leader.textContent = 'Winning Team: ';
 
 
-if (home > guest) 
-leader.textContent = `Winning Team: Home`;
- else if (guest > home) 
-leader.textContent = `Winning Team: Guest`;
- else if (home === guest) 
-leader.textContent = `Winning Team: Draw`;
- else 
-leader.textContent = `Winning Team: Error`;
+// if (home > guest) 
+// leader.textContent = `Winning Team: Home`;
+//  else if (guest > home) 
+// leader.textContent = `Winning Team: Guest`;
+//  else if (home === guest) 
+// leader.textContent = `Winning Team: Draw`;
+//  else 
+// leader.textContent = `Winning Team: Error`;
 
 
 
