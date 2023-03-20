@@ -92,7 +92,7 @@ h1 {
     font-family: "Cursed Timer ULiL Font";
 }
 
-/* plus boxes */
+/*! plus boxes */
 
 .plus-boxes {
     display: flex;
@@ -118,7 +118,7 @@ h1 {
     color: #ccc;
 }
 
-/* Reset button */
+/*! Reset button */
 
 .reset-btn {
     display: flex;
