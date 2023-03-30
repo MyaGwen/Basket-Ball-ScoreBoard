@@ -1,6 +1,6 @@
  # Basketball Scoreboard
  
- ## without Hover
+ ## Without Hover
  
  <span> <img src="/images/basketball.png" alt="Basketball Scoreboard Project Preview"> </span>
 
